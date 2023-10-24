@@ -160,7 +160,7 @@ background: linear-gradient(to left, #CF2ECF 0%, #000000 100%);
   .hide{
     display: none;
   }
- @media only screen and (max-width: 600px) {
+/*  @media only screen and (max-width: 600px) {
     body{
       font-size: 16px;
       font-weight: 500;
@@ -190,3 +190,4 @@ background: linear-gradient(to left, #FF0000 0%, #ffff00 50%, #FF0000 100%);
 
     }
   }
+ */
