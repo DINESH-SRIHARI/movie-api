@@ -1,4 +1,4 @@
-let apiKey="http://www.omdbapi.com/?i=tt3896198&apikey=4554e702&t="
+let apiKey="https://www.omdbapi.com/?i=tt3896198&apikey=4554e702&t="
 let loadingsts=false;
 
 let content=document.getElementById('content');
