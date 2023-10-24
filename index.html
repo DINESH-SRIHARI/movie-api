@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movie bites</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main-ent">
+        <input type="text" id="inpp" placeholder="Enter the movie name">
+        <button id="btnn" onclick="togetdetails()">submit</button>
+    </section>
+   
+    <div class="welcom" id="welc">
+        <h1>welcome to the <span class="name">movie bites</span></h1>
+        <p>Enter the movie name to know the movie Details</p>
+        <img src="colorful-welcome-design-template-free-vector.jpg" alt="" class="mmg">
+    </div>
+    <div id="ld"></div>
+
+    <section class="content" id="content">
+        <div class="left">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg" alt="" id="imag" >
+            <p class="indb" id="indb">Imdb2</p>
+            <p class="Genre" id="Genre">action</p>
+            <p class="time" id="time">121minutes</p>
+            <p>Likes: <span id="lik"></span></p>
+        </div>
+        <div class="right">
+            <h1 id="til"> this is a movie</h1>
+            <p >Actors: <span id="actor"></span></p>
+            <p >director: <span id="dir"></span></p>
+            <p >Awards: <span id="awad"></span></p>
+            <p>Box-Office: <span id="bo"></span></p>
+            <p>country: <span id="con"></span></p>
+            <p>Release Date: <span id="release"></span></p>
+            <p>Response: <span id="website"></span></p>
+            <p>Type: <span id="type"></span></p>
+            <p>Writers: <span id="writers"></span></p>
+            <p>Plot: <span id="Plot"></span></p>
+        </div>
+    </section>
+    <div class="footer">
+        <p>Made with Movie ❤️ © <span>Dinesh</span></p>
+    </div>
+    <div class="notfound" id="notfound">
+        <h2 class="hh">Result Not Found</h2>
+        <img src="oc-error.svg" alt="" class="mmg">
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
