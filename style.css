@@ -7,6 +7,7 @@ body{
     display: flex;
     justify-content: center;
     margin: 50px auto;
+    
 }
 #inpp{
     justify-content: center;
@@ -33,11 +34,11 @@ body{
 }
 .content{
     
-    width: 800px;
+    
     display: flex;
     align-items: center;
     margin: 0 auto;
-    
+    flex-direction: column;
     
 }
 #imag{
@@ -142,9 +143,7 @@ body{
     margin-top: 15px;
     font-weight: 300;
   }
-  .mmg{
-    height: 400px;
-  }
+  
   .hh{
     margin-left: 200px;
     background: #CF2ECF;
@@ -160,34 +159,20 @@ background: linear-gradient(to left, #CF2ECF 0%, #000000 100%);
   .hide{
     display: none;
   }
-/*  @media only screen and (max-width: 600px) {
-    body{
-      font-size: 16px;
-      font-weight: 500;
-    }
-    .mmg{
-      width: 500px;
-    }
-    #content{
-      display: block;
-      margin: 12px;
-    }
-    .left{
-      justify-content: center;
-    }
-    .Genre{
-      margin-bottom: 40px;
-    }
-    .time{
-      margin-right: 490px;
-    }
-    #til{
-      background: #FF0000;
-background: linear-gradient(to left, #FF0000 0%, #ffff00 50%, #FF0000 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-
-
-    }
+@media(min-width:430px){
+  .content{
+    width: 800px;
   }
- */
+  .mmg{
+    height: 400px;
+  }
+}
+@media(max-width:430px){
+  .content{
+    width: 400px;
+    margin-bottom: 90px;
+  }
+  .mmg{
+    width: 400px;
+  }
+}
